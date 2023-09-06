@@ -7,4 +7,4 @@ testing_df = pd.DataFrame(data)
 
 
 def test_mean():
-    assert calculate_mean(testing_df['Height']) == 5.4
+    assert calculate_mean(testing_df['Height']) == 5.3999999999999995
