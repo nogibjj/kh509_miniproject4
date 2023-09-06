@@ -1,4 +1,4 @@
-# python-template
+# Pandas Descriptive Statistics Script
 Mini-Project 2
 
 Fall 2023 IDS 706 Data Engineering
