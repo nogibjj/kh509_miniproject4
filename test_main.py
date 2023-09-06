@@ -1,4 +1,4 @@
-from stat import calculate_mean
+from stat.py import calculate_mean
 import pandas as pd
 
 data = {'Height': [5.1, 6.2, 5.1, 5.2]}
