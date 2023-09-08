@@ -24,4 +24,4 @@ The test_main.py file is file used to to test the stat1.py script. It tests that
 
 # Running the project
 _______________________________
-The project builds through the github worflows folder, cicd.yml file. It installs, lints, tests, formats, and the python script. 
+The project uses the python template as a base. It was then edited and added on for this week's specific needs. The project builds through the github worflows folder, cicd.yml file. It installs, lints, tests, formats, and the python script. 
