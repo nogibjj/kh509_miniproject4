@@ -5,7 +5,7 @@ df1 = pd.read_csv('iris.csv')
 
 def calc_desc_stat(dataset_col):
     out=dataset_col.describe()
-    return out
+    return round(out,2)
 
 print(calc_desc_stat(df1['petal.length']))
 #print(df1.columns)
