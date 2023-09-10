@@ -9,6 +9,8 @@ def calc_desc_stat(dataset_col):
 
 print(calc_desc_stat(df1['petal.length']))
 
-def boxplot_of_col(dataset_col):
-    boxplot = dataset_col.boxplot()
+def boxplot_of_col(df_wanted, dataset_col):
+    boxplot = df_wanted.boxplot(columns='dataset_col')
     return boxplot
+
+print(boxplot_of_col(df1,df1['petal.length']))
