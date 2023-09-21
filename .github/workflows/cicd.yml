@@ -19,3 +19,11 @@ jobs:
         run: make install
       - name: format
         run: make format
+      - name: lint
+        run: make lint
+      - name: run function
+        run: python stat1.py
+      - name: test
+        run: make test
+
+
