@@ -1,4 +1,4 @@
-name: Pythons: 3.7,3.8,3.9 OS: Ubuntu, Windows
+name: matrix build python 3.7-3.9 windows ubuntu 
 on:
   push:
     branches: [ "main" ]
