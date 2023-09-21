@@ -2,6 +2,8 @@
 Mini-Project4
 Katelyn Hucker (kh509)
 
+
+[![CI: 3.7, ubbuntu-latest](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
 My miniproject 4 uses previous code files from miniproject 2. My project now can be built on windows and linux (ubuntu) operating systems. It also works with Python versions: 3.7,3.8,3.9.
 
 
@@ -12,7 +14,7 @@ _______________________________
 _______________________________
 
 ### Requirements.txt:
-The requirements file added pandas 2.0.0 to its list of required libraries. I also added matplotlibb.pyplot 3.7.0. This allows pandas and matplotlib.pyplot to be installed as packages. 
+In addition to the needed dependencies for linting, formating, and testing, the requirements file added pandas 2.0.0 to its list of required libraries. I also added matplotlibb.pyplot 3.7.0. This allows pandas and matplotlib.pyplot to be installed as packages. 
 
 ### Makefile:
 The Makefile has been uncommented to actually run properly on the statistics script. The Makefile installs the libraries in the requirements.txt, tests the code with the test_main.py file, then formats and lints with python black and pylint. 
