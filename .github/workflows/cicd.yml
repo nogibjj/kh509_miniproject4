@@ -25,5 +25,8 @@ jobs:
         run: python stat1.py
       - name: test
         run: make test
-
+      - name: Set Python and OS Versions
+        run: |
+          echo "::set-env name=PYTHON_VERSION::${{ matrix.python-version }}"
+          echo "::set-env name=OS_VERSION::${{ matrix.os }}"
 
