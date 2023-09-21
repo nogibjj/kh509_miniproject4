@@ -14,10 +14,6 @@ jobs:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
       - uses: actions/checkout@v3
       - name: install packages
         run: make install
@@ -29,8 +25,5 @@ jobs:
         run: python stat1.py
       - name: test
         run: make test
-      - name: Set Python and OS Versions
-        run: |
-          echo "::set-env name=PYTHON_VERSION::${{ matrix.python-version }}"
-          echo "::set-env name=OS_VERSION::${{ matrix.os }}"
+
 
