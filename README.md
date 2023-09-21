@@ -1,10 +1,14 @@
-# Pandas Descriptive Statistics Script
-Mini-Project2
+# Github Actions Matrix Build
+Mini-Project4
 Katelyn Hucker (kh509)
 
-My mini-project imports the iris.csv dataset and then calculates the descriptive statistics of petal length for iris flowers using the python pandas library. 
+My miniproject 4 uses previous code files from miniproject 2. My project now can be built on windows and linux (ubuntu) operating systems. It also works with Python versions: 3.7,3.8,3.9.
 
-# Changes 
+
+# Github Actions
+_______________________________
+
+# Descriptions of the files
 _______________________________
 
 ### Requirements.txt:
@@ -12,9 +16,6 @@ The requirements file added pandas 2.0.0 to its list of required libraries. I al
 
 ### Makefile:
 The Makefile has been uncommented to actually run properly on the statistics script. The Makefile installs the libraries in the requirements.txt, tests the code with the test_main.py file, then formats and lints with python black and pylint. 
-
-# New 
-_______________________________
 
 ### stat1.py:
 stat1.py is a statistics script that takes advantage of the pandas library. The script imports a csv file as a dataframe, of the developers choosing, in this case it is the iris.csv dataset. The dataset contains varying numeric information about iris flowers. The whole dataset is imported with the read_csv method. The script contains a function that imports a dataframe's column, calculates and returns the descriptive stats of the column. The function is then called on the petal length coloumn of the iris data frame and printed out. The script also produces a boxplot of this user selected column of interest. The developer can change which dataframe and column they are looking as the function allows new inputs. The figure is saved as a boxplot.png for that column of interest.The boxplot is a visualization that includes most of the descriptive statistics output, including median, max, min, and quantiles. The visualization for the petal length column is below.
