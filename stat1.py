@@ -11,7 +11,6 @@ print(calc_desc_stat(df1['petal.length']))
 #print(df1.columns)
 def boxplot_of_col(df_wanted, col):
     df_wanted.boxplot(column=col)
-    plt.show()
     plt.savefig("boxplot.png")
 
 
