@@ -1,4 +1,4 @@
-name: CI
+name: Pythons: 3.7,3.8,3.9 OS: Ubuntu, Windows
 on:
   push:
     branches: [ "main" ]
