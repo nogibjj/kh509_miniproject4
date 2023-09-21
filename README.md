@@ -3,7 +3,7 @@ Mini-Project4
 Katelyn Hucker (kh509)
 
 
-[![Python 3.7,3.8,3.9](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
+[![PYTHON 3.7](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
 My miniproject 4 uses previous code files from miniproject 2. My project now can be built on windows and linux (ubuntu) operating systems. It also works with Python versions: 3.7,3.8,3.9.
 
 
