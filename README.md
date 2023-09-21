@@ -2,14 +2,14 @@
 Mini-Project4
 Katelyn Hucker (kh509)
 
-
-[![PYTHON 3.7](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
 My miniproject 4 uses previous code files from miniproject 2. My project now can be built on windows and linux (ubuntu) operating systems. It also works with Python versions: 3.7,3.8,3.9.
+
+[![matrix build python 3.7-3.9 windows ubuntu](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
 
 
 # Github Actions
 _______________________________
-
+The cicd.yml demonstrates the workflow of github actions. The matrix build installs, tests, lints, formats, and runs the function for 6 builds. Python 3.7 ubuntu and windows, Python 3.8 ubuntu and windows, Python 3.9 ubuntu and windows. It passes all workflows for each build making it a well tested and developed project. It can work on different systems and versions for more broad usage. 
 # Descriptions of the files
 _______________________________
 
