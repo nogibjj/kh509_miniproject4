@@ -4,7 +4,7 @@ Katelyn Hucker (kh509)
 
 My miniproject 4 uses previous code files from miniproject 2. My project now can be built on windows and linux (ubuntu) operating systems. It also works with Python versions: 3.7,3.8,3.9.
 
-[![matrix build python 3.7-3.9 windows ubuntu](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/katelyn-hucker/kh509_miniproject4/actions/workflows/cicd.yml)
+[![matrix build python 3.7-3.9 windows ubuntu](https://github.com/nogibjj/kh509_miniproject4/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/kh509_miniproject4/actions/workflows/cicd.yml)
 
 
 # Github Actions
